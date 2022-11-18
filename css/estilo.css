@@ -1,11 +1,11 @@
 /* Estrutura do site
 */
 * {
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
 
-body{
+body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: rgb(87, 85, 85) url(../imagens/fundo2.png) repeat-x;
 }
@@ -31,7 +31,8 @@ body{
 
 /* Barra de navegação
 */
-a:link, a:visited {
+a:link,
+a:visited {
 	color: #0a0091;
 	padding: 2px;
 }
@@ -75,10 +76,9 @@ ul {
 }
 
 body.home #navegacao a#home,
-body.brasil #navegacao a#brasil, 
-body.internacional #navegacao a#internacional,
-body.fotos #navegacao a#fotos 
-{
+body.planos #navegacao a#planos,
+body.cadastro #navegacao a#cadastro,
+body.news #navegacao a#news {
 	color: #fff;
 	background: #0000a3;
 	cursor: text;
@@ -99,7 +99,7 @@ body.fotos #navegacao a#fotos
 #primario {
 	width: 270px;
 	float: left;
-	margin: 0 0 20px 195px ;
+	margin: 0 0 20px 195px;
 }
 
 #duas-colunas #primario {
@@ -140,6 +140,7 @@ h2 {
 .caixa-conteudo h3 {
 	color: #ffffff;
 }
+
 /* Formatar menus laterais
 */
 #lateral ul a {
@@ -161,7 +162,7 @@ h2 {
 /* Formatando formulários
 */
 label {
-	display: block; 
+	display: block;
 	cursor: pointer;
 }
 
@@ -205,7 +206,7 @@ h3 {
 /*Formatando lista de notícias*/
 #lista-noticias li {
 	padding: 2px;
-	border-bottom: 1px solid #ccc; 
+	border-bottom: 1px solid #ccc;
 	height: 62px;
 }
 
@@ -246,19 +247,3 @@ h3 {
 	margin: 0 auto;
 	color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
