@@ -18,7 +18,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	background: url(../imagens/fundo2.png) repeat-x;
-	
+
 }
 
 #topo {
@@ -58,12 +58,20 @@ ul {
 	margin-left: 50px;
 	margin-top: 50px;
 	height: 46px;
-	background: #01013f;
+	/* background: #01013f; */
 	/* float: left; */
+}
+@media (max-width: 710px) {
+	#topo ul {
+		margin-top: 0px;
+		margin-left: 0px;
+	}
 }
 
 #topo ul li {
+	width: 150px;
 	float: left;
+	background: #01013f;
 }
 
 #topo ul a {
